@@ -40,3 +40,48 @@ let numeroConvertido = Number(stringsNumero);
 console.log(numeroConvertido);
 
 // 12. Verifique se um número é par ou ímpar.
+let numero = 7;
+if (numero % 2 === 0) {
+  console.log("O número é par");
+} else {
+  console.log("O número é ímpar");
+}
+
+// 13. Crie um array com três frutas e exiba a segunda fruta.
+let frutas = ["goiaba", "Banana", "uva"];
+console.log(frutas[1]); // Segunda fruta
+
+// 14. Adicione um novo número ao final de um array e exiba o array atualizado.
+let numeros = [1, 2, 3];
+numeros.push(4);
+console.log(numeros);
+
+// 15. Remova o último item de um array e exiba o array atualizado.
+numeros.pop();
+console.log(numeros);
+
+// 16. Crie um código que verifique se uma pessoa é maior ou menor de idade.
+let idade = 17;
+if (idade >= 25) {
+  console.log("A pessoa é maior de idade.");
+} else {
+  console.log("A pessoa é menor de idade.");
+}
+
+// 17. Faça um loop que exiba os números de 1 a 5.
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+
+// 18. Crie uma função que retorna a mensagem "Ola mundo!" e a chame.
+function saudacao() {
+  return "ola mundo!";
+}
+console.log(saudacao());
+
+// 19. Crie um objeto com nome e idade e exiba o nome da pessoa.
+let pessoa = {
+  nome: "Nicole",
+  idade: 25
+};
+console.log(pessoa.nome);
